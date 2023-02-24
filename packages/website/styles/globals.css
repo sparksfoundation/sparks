@@ -20,6 +20,7 @@ body * {
 }
 
 main {
+  padding: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,9 +29,23 @@ main {
   width: 100%;
 }
 
-h1, h3 {
+main.terms {
+  justify-content: flex-start;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #F9F9F9;
+}
+
+p, pre {
+  color: #F9F9F9;
+}
+
+main.terms p {
+  white-space: pre-wrap;
 }
 
 h3 {
